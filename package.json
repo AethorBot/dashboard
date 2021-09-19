@@ -1,0 +1,38 @@
+{
+	"name": "aethor-dashboard",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^1.6.7",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"@skyra/discord-components-react": "^2.10.0",
+		"autoprefixer": "^10.3.4",
+		"axios": "^0.21.4",
+		"cookie": "^0.4.1",
+		"framer-motion": "^4",
+		"jsonwebtoken": "^8.5.1",
+		"next": "11.1.2",
+		"node-fetch": "^3.0.0",
+		"postcss": "^8.3.6",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^4.0.3",
+		"@types/cookie": "^0.4.1",
+		"@types/jsonwebtoken": "^8.5.5",
+		"@types/react": "17.0.21",
+		"eslint": "7.32.0",
+		"eslint-config-next": "11.1.2",
+		"postcss-preset-env": "^6.7.0",
+		"tailwindcss": "^2.2.15",
+		"typescript": "4.4.3"
+	}
+}
